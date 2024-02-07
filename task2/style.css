@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-container{
+    width: 100%;
+    height: 100vh;
+    background-color: #11e380;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-01{
+    margin-left: 20%;
+    width: 25%;
+    height: 60%;
+    background-color: #c6ee5f;
+    border-radius:5px;
+}
+.icon{
+    display: flex;
+    align-items:center;
+    gap: 17rem;
+    justify-content: center;
+}
+.fa {
+    margin-top: 10px;
+    background-color: #fff;
+    background-size: cover;
+    background-position: center;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.all-apple{
+    border-radius: 0px 0px 5px 5px;
+    background-color: #ffffff;
+    height: 25%;
+    display: flex;
+}
+.image1{
+    border-radius: 5px;
+    padding: 2px;
+    width: 80%;
+    margin-top: 35%;
+    margin-left: 85%;
+    border: 1px rgba(202, 150, 150, 0.726) solid;
+}
+.section-02{
+    background-color: #ffffff;
+    width: 50%;
+    height: 90%;
+}
+.head{
+display: flex;
+flex-direction: column;
+align-items: center;
+    justify-content: center;
+}
+.money{
+    color:red;
+display: flex;
+gap:20px ;
+align-items: center;
+    justify-content: center;
+}
+.money h1{
+    font-size: 50px;
+}
+.select{
+    font-size: 20px;
+}
+.apple-image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.apple1{
+    width: 15%;
+    height: 15%;
+}
+.Apple-01{
+    margin-left: 200px;
+}
+.apple1:hover{
+    border-radius: 5px;
+    padding: 4px;
+    border: 1px rgba(202, 150, 150, 0.726) solid;  
+}
+.last-fotter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.para{
+    margin-left: 43%;
+    line-height: 30px;
+}
+.btn{
+    font-weight: 700;
+    background-color: #fc433f;
+    border: none;
+    color: white;
+    font-size: 10px;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    padding: 15px;
+    width: 160px;
+    border-radius: 5px;
+}
